@@ -11,9 +11,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Header />
+ tnwj       <Header />
         <Routes>
-          <Route path='/' element={<DayList />} />
+          <Route path='../' element={<DayList />} />
           <Route path='day/:day' element={<Day />} />
           <Route path='/create_Word' element={<CreateWord />} />
           <Route path='/create_day' element={<CreateDay />} />
